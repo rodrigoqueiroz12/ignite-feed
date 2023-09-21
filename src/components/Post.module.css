@@ -1,139 +1,139 @@
 .post {
-    background: var(--gray-800);
-    border-radius: 8px;
-    overflow: hidden;
-    padding: 2.5rem;
+  background: var(--gray-800);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 2.5rem;
 }
 
-.post+.post {
-    margin-top: 2rem;
+.post + .post {
+  margin-top: 2rem;
 }
 
 .author {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .authorInfo {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .authorInfo strong a {
-    font-size: 1rem;
-    color: var(--gray-100);
-    font-weight: 700;
-    line-height: 1.6;
-    text-decoration: none;
+  font-size: 1rem;
+  color: var(--gray-100);
+  font-weight: 700;
+  line-height: 1.6;
+  text-decoration: none;
 }
 
 .authorInfo strong a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .authorInfo span {
-    font-size: 0.875rem;
-    color: var(--gray-400);
-    font-weight: 400;
-    line-height: 1.6;
+  font-size: 0.875rem;
+  color: var(--gray-400);
+  font-weight: 400;
+  line-height: 1.6;
 }
 
-.post>header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.5rem;
+.post > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
-.post>header time {
-    font-size: 0.875rem;
-    color: var(--gray-400);
-    font-weight: 400;
-    line-height: 1.6;
+.post > header time {
+  font-size: 0.875rem;
+  color: var(--gray-400);
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .content p {
-    color: var(--gray-300);
-    font-weight: 400;
-    line-height: 1.6;
+  color: var(--gray-300);
+  font-weight: 400;
+  line-height: 1.6;
 }
 
-.content p+p {
-    margin-top: 1.25rem;
+.content p + p {
+  margin-top: 1.25rem;
 }
 
 .content p a {
-    font-weight: 700;
-    color: var(--green-300);
-    text-decoration: none;
+  font-weight: 700;
+  color: var(--green-300);
+  text-decoration: none;
 }
 
 .commentForm {
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--gray-600);
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-600);
 
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.commentForm>strong {
-    font-size: 1rem;
-    color: var(--gray-100);
-    font-weight: 700;
-    line-height: 1.6;
+.commentForm > strong {
+  font-size: 1rem;
+  color: var(--gray-100);
+  font-weight: 700;
+  line-height: 1.6;
 }
 
-.commentForm>textarea {
-    font-size: 1rem;
-    color: var(--gray-300);
-    font-weight: 400;
-    line-height: 1.4;
-    padding-block: 0.8125rem;
-    padding-inline: 1rem;
-    background: var(--gray-900);
-    border: none;
-    border-radius: 8px;
-    min-height: 6rem;
-    resize: vertical;
+.commentForm > textarea {
+  font-size: 1rem;
+  color: var(--gray-300);
+  font-weight: 400;
+  line-height: 1.4;
+  padding-block: 0.8125rem;
+  padding-inline: 1rem;
+  background: var(--gray-900);
+  border: none;
+  border-radius: 8px;
+  min-height: 6rem;
+  resize: vertical;
 }
 
-.commentForm>footer {
-    visibility: hidden;
-    max-height: 0;
+.commentForm > footer {
+  visibility: hidden;
+  max-height: 0;
 }
 
-.commentForm:focus-within>footer {
-    visibility: visible;
-    max-height: none;
+.commentForm:focus-within > footer {
+  visibility: visible;
+  max-height: none;
 }
 
-.commentForm>footer button[type="submit"] {
-    padding-inline: 1.5rem;
-    padding-block: 1rem 0.875rem;
-    background: var(--green-500);
-    color: var(--white);
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    transition: background 100ms;
+.commentForm > footer button[type="submit"] {
+  padding-inline: 1.5rem;
+  padding-block: 1rem 0.875rem;
+  background: var(--green-500);
+  color: var(--white);
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background 100ms;
 }
 
-.commentForm>footer button[type="submit"]:not(:disabled):hover {
-    background: var(--green-300);
+.commentForm > footer button[type="submit"]:not(:disabled):hover {
+  background: var(--green-300);
 }
 
-.commentForm>footer button[type="submit"]:disabled {
-    opacity: 0.8;
-    cursor: default;
+.commentForm > footer button[type="submit"]:disabled {
+  opacity: 0.8;
+  cursor: default;
 }
 
 .commentList {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }

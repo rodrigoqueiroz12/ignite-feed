@@ -1,24 +1,24 @@
 .profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    aspect-ratio: 1 / 1;
-    border-radius: 8px;
-    background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  background: var(--gray-800);
 }
 
 img {
-    width: 48px;
-    border-radius: 0.25rem;
+  width: 48px;
+  border-radius: 0.25rem;
 }
 
 .profileWithBorder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    aspect-ratio: 1 / 1;
-    border: 2px solid var(--green-500);
-    border-radius: 8px;
-    padding: 0.25rem;
-    background: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  border: 2px solid var(--green-500);
+  border-radius: 8px;
+  padding: 0.25rem;
+  background: var(--gray-800);
 }
